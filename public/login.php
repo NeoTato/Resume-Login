@@ -1,6 +1,5 @@
 <?php
 
-session_save_path("C:/xampp/tmp");
 session_start();
 
 $connection = pg_connect("host=localhost port=5432 dbname=resumedb user=postgres password=eonpassword");
