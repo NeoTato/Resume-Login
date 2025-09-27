@@ -1,5 +1,4 @@
 <?php
-    session_save_path("C:/xampp/tmp");
     session_start();
 
     // If the user is not logged in, redirect to login page
