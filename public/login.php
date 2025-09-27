@@ -31,20 +31,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="assets/css/loginStyles.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Welcome Back</h2>
-    <h3> Sign in to view resume</h3>
-    <form action="login.php" method="post">
-        <label>Username</label>
-        <input type="text" name="username" required>
-        <br>
-        <label>Password</label>
-        <input type="password" name="password" required>
-        <br>
-        <input type="submit" value="Sign In">
-    </form>
+    <div class="container">
+        <h2>Welcome Back</h2>
+        <h3> Sign in to view resume</h3>
+        <form action="login.php" method="post">
+            <label>Username</label>
+            <input type="text" name="username" required>
+            <br>
+            <label>Password</label>
+            <input type="password" name="password" required>
+            <br>
+            <input type="submit" value="Sign In">
+        </form>
 
-    <p style="color:red;"><?php echo $error; ?></p>
-  </div>
+        <p style="color:red;"><?php echo $error; ?></p>
+    </div>
 </body>
 </html>
