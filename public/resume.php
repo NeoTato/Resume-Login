@@ -41,7 +41,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resumeStyles.css" type="text/css">
+    <link rel="stylesheet" href="assets/resumeStyles.css" type="text/css">
     <title>My Resume</title>
 </head>
 
@@ -49,7 +49,7 @@
     <div class="container">
         <header>
             <div class="profile-pic">
-                <img src="eon-profile-picture.png" alt="eon profile picture">
+                <img src="assets/images/eon-profile-picture.png" alt="eon profile picture">
             </div>
         </header>
         <main>
@@ -60,15 +60,15 @@
                 <section id="contact">
                     <p>
                         <a href="mailto:emp.busque38@gmail.com">
-                            <img src="mail.png" alt="Email icon" width="22px">
+                            <img src="assets/images/mail.png" alt="Email icon" width="22px">
                             <?php echo "$email "; ?>
                         </a>
                         <a href="tel:09760542971">
-                            <img src="phone.png" alt="Phone icon" width="22px">
+                            <img src="assets/images/phone.png" alt="Phone icon" width="22px">
                             <?php echo "$phone"; ?>
                         </a>
                         <span>
-                            <img src="location.png" alt="Location icon" width="22px">
+                            <img src="assets/images/location.png" alt="Location icon" width="22px">
                             <?php echo "$location"; ?>
                         </span>
                     </p>

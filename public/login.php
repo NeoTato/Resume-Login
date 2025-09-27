@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
-    <link rel="stylesheet" href="loginStyles.css">
+    <link rel="stylesheet" href="assets/css/loginStyles.css">
 </head>
 <body>
   <div class="container">
