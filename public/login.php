@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $error = "Invalid Username or Password";
     }
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,6 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container">
         <h2>Welcome Back</h2>
         <h3> Sign in to view resume</h3>
+
         <form action="login.php" method="post">
             <label>Username</label>
             <input type="text" name="username" required>
@@ -42,8 +44,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <br>
             <input type="submit" value="Sign In">
         </form>
-
+        
         <p style="color:red;"><?php echo $error; ?></p>
+
     </div>
 </body>
 </html>
