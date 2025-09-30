@@ -14,23 +14,24 @@ A resume page with login integration using **PHP**, **HTML**, **CSS**, and **Pos
 
 ## Project Structure
 
+```bash
 Resume-Login/
 ├── .vscode/
 ├── public/
-│ ├── assets/
-│ │ ├── css/
-│ │ │ ├── loginStyles.css
-│ │ │ └── resumeStyles.css
-│ │ └── images/
-│ │ ├── eon-profile-picture.png
-│ │ ├── location.png
-│ │ ├── mail.png
-│ │ └── phone.png
-│ ├── login.php
-│ └── resume.php
+│   ├── assets/
+│   │   ├── css/
+│   │   │   ├── loginStyles.css
+│   │   │   └── resumeStyles.css
+│   │   └── images/
+│   │       ├── eon-profile-picture.png
+│   │       ├── location.png
+│   │       ├── mail.png
+│   │       └── phone.png
+│   ├── login.php
+│   └── resume.php
 └── screenshots/
-├── Login_Page.png
-└── Resume_Page.png
+    ├── Login_Page.png
+    └── Resume_Page.png
 
 
 ---
